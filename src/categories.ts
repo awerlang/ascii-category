@@ -1,4 +1,4 @@
-import { Tab, Enter, Space } from './consts';
+import { Tab, Enter, Space } from './consts'
 
 const CONTROL_FIRST = 0
 const CONTROL_LAST = 31
