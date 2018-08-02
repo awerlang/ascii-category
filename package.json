@@ -2,8 +2,11 @@
     "name": "ascii-category",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "dist/ascii-category.js",
+    "browser": "dist/ascii-category.umd.js",
+    "module": "dist/ascii-category.esm.js",
     "scripts": {
+        "build": "npm run lint && rollup -c",
         "lint": "eslint **/*.ts",
         "test": "npm run lint && echo \"Error: no test specified\" && exit 1"
     },
@@ -32,6 +35,9 @@
     "devDependencies": {
         "eslint": "5.2.0",
         "eslint-plugin-typescript": "0.12.0",
+        "rollup": "0.63.5",
+        "rollup-plugin-typescript": "0.8.1",
+        "rollup-plugin-uglify": "4.0.0",
         "typescript": "3.0.1",
         "typescript-eslint-parser": "17.0.1"
     }
