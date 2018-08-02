@@ -1,0 +1,34 @@
+{
+    "name": "ascii-category",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/awerlang/ascii-category.git"
+    },
+    "keywords": [
+        "ascii",
+        "keyboard",
+        "key",
+        "codes",
+        "ansi",
+        "char",
+        "codes",
+        "keydown",
+        "keypress",
+        "keyup"
+    ],
+    "author": "André Werlang",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/awerlang/ascii-category/issues"
+    },
+    "homepage": "https://github.com/awerlang/ascii-category#readme",
+    "devDependencies": {
+        "typescript": "3.0.1"
+    }
+}
