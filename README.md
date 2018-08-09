@@ -35,7 +35,7 @@ true | false
 
 # Docs
 
-Go to http://blog.werlangtecnologia.com.br/ascii-category
+Go to http://blog.werlangtecnologia.com.br/ascii-category/
 
 # License
 
