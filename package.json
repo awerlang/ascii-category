@@ -9,7 +9,7 @@
         "build": "npm run lint && rollup -c",
         "lint": "eslint **/*.ts",
         "docs": "typedoc --out docs --mode modules",
-        "test": "npm run lint && echo \"Error: no test specified\" && exit 1"
+        "test": "npm run lint && ts-node test.ts"
     },
     "repository": {
         "type": "git",
@@ -39,6 +39,7 @@
         "rollup": "0.63.5",
         "rollup-plugin-typescript": "0.8.1",
         "rollup-plugin-uglify": "4.0.0",
+        "ts-node": "7.0.0",
         "typedoc": "0.11.1",
         "typescript": "3.0.1",
         "typescript-eslint-parser": "17.0.1"
